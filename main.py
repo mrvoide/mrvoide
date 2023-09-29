@@ -3,7 +3,7 @@ from tkinter.ttk import *
 from time import strftime
 root = Tk()
 root.title("clock")
-name = Label(root,font = ("ds-digital",100),background = "red",foreground = "green")
+name = Label(root,font = ("ds-digital",100),background = "BLACK",foreground = "CYAN")
 def time():
     format = strftime("%D %H %M %S %p")
     name.config(text = format)
